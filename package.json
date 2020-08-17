@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/crustio/fastdfs-client-node.git"
+    "url": "git+ssh://github.com/crustio/fastdfs-client-node.git"
   },
   "keywords": [
     "node",
