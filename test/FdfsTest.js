@@ -95,16 +95,16 @@ describe('test fdfs', function() {
     //     }).catch(done);
     // });
     //
-    // it('download', function(done) {
-    //     // TODO
-    //     this.timeout(0);
-    //     var fileId = 'group1/M00/00/09/wKgAeFbZnLGAULR6AAPm5H9JxDA474.jpg';
-    //     var file = 'd:/temp.jpg';
-    //     fdfs.download(fileId, file).then(function() {
-    //         console.log('download ok');
-    //         done();
-    //     }).catch(done);
-    // });
+    it('download', function(done) {
+        // TODO
+        this.timeout(0);
+        var fileId = 'group1/M03/00/00/fwAAAV86TYGATAwmAAAA7n_kAzk27.json';
+        const file = "C:\\.karst\\config.json2"
+        fdfs.download(fileId, file).then(function() {
+            console.log('download ok');
+            done();
+        }).catch(done);
+    });
     //
     // it('test uploadAppenderFile', function(done) {
     //     this.timeout(0);
