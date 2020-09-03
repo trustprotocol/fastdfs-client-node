@@ -1,6 +1,6 @@
 {
   "name": "fastdfs-client-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Fastdfs Clinet in NodeJS",
   "main": "index.js",
   "scripts": {
