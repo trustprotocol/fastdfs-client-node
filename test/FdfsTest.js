@@ -105,6 +105,15 @@ describe('test fdfs', function() {
             done();
         }).catch(done);
     });
+    it('getFileInfo', async function (done) {
+        // TODO
+        console.time("start")
+        const res = await fdfs.getFileInfo(
+          "group1/M00/06/20/fwAAAV9Qtd-AUsIFAAEaFXkK3x48426040"
+        )
+        console.log(res);
+
+    });
     //
     // it('test uploadAppenderFile', function(done) {
     //     this.timeout(0);
